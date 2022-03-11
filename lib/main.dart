@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:inter_nation_test/books/screens/home/books_home_page.dart';
 import 'package:inter_nation_test/pupils/screens/home/pupils_home_page.dart';
 
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const PupilsHomePage(),
+      home: const BooksHomePage(),
     );
   }
 }
